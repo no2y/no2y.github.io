@@ -1,6 +1,6 @@
 ---
 title: {{title}}
 date: {{date}}
-updated: {{ date }}
+updated: {{date}}
 tags: []
 ---
