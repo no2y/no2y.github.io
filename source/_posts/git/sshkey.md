@@ -2,6 +2,8 @@
 title: 多个GitHub账户的SSH密钥配置指南
 categories:
   - git
+date: 2023-11-12 15:54:21
+updated: 2023-11-12 15:56:00
 ---
 
 ## 1. 生成SSH密钥
