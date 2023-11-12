@@ -20,13 +20,13 @@ ssh-keygen -t rsa -b 4096 -C "your_other_email@example.com" -f ~/.ssh/id_rsa_acc
 编辑 `~/.ssh/config` 文件，为每个账户添加以下配置块：
 ```bash
 # GitHub Account 1
-Host github.com-account1
+Host account1
     HostName github.com
     User git
     IdentityFile ~/.ssh/id_rsa_account1
 
 # GitHub Account 2
-Host github.com-account2
+Host account2
     HostName github.com
     User git
     IdentityFile ~/.ssh/id_rsa_account2
@@ -48,15 +48,28 @@ ssh-add ~/.ssh/id_rsa_account2
 ## 6. 测试SSH连接
 测试是否能够通过SSH连接到GitHub：
 ```bash
-ssh -T git@github.com-account1
-ssh -T git@github.com-account2
+ssh -T git@account1
+ssh -T git@account2
 ```
 
 ## 7. 使用SSH克隆仓库
 使用配置文件中设置的别名来克隆GitHub仓库：
 ```bash
-git clone git@github.com-account1:user/Repo1.git
-git clone git@github.com-account2:otheruser/Repo2.git
+git clone git@account1:user/Repo1.git
+git clone git@account2:otheruser/Repo2.git
+```
+如果是已有仓库：
+```bash
+git remote -v
+```
+看看当前关联的地址：
+```bash
+origin  git@github.com:no2y/no2y.github.io.git (fetch)
+origin  git@github.com:no2y/no2y.github.io.git (push)
+```
+将其修改为刚刚 ~/.ssh/config 中配置的 Host
+```bash
+git remote set-url origin git@account1:no2y/no2y.github.io.git
 ```
 
 ## 8. 配置Git用户名和电子邮件
