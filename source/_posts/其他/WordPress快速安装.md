@@ -1,6 +1,6 @@
 ---
 title: WordPress快速安装
-date: 2023-12-13 19:19:38
+date: 2023-03-19 19:19:38
 updated: 2023-12-13 19:19:38
 tags:
   - Wordpress
