@@ -1,5 +1,5 @@
 ---
-title: Obsidian + Github + iPhone、Win、Mac 搭配食用
+title: Obsidian 食用配方
 date: 2023-12-15 17:11:44
 updated: 2023-12-15 17:11:44
 tags:
@@ -9,10 +9,10 @@ tags:
 categories:
   - 随记
 ---
-# 前言
+## 前言
 1. 不知道什么是 [Obsidian](https://obsidian.md/) 
 2. 使用 Obsidian 和 GitHub 实现在各个终端设备同步笔记
-# 开始
+## 开始
 ### 基本设置
 1. 客户端可在 `设置` - `About` 中切换为 `简体中文` 
 2. `创建新库`或者打开已经 Clone 在本地的代码仓库
@@ -50,7 +50,7 @@ source/_obsidian
 >推荐使用 Personal access token，具体可见[个人访问令牌](https://docs.github.com/zh/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#keeping-your-personal-access-tokens-secure)
 #### File Tree Alternative Plugin
 这个插件可以让左侧目录结构更加专注，安装启用即可。其他配置见 [file-tree-alternative](https://github.com/ozntel/file-tree-alternative)
-# 在 iPhone 上使用
+## 在 iPhone 上使用
 使用方式和 PC 并无大差异
 #### 使用 ISH 克隆仓库到 iOS 本地存储中
 略
