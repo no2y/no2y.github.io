@@ -8,6 +8,7 @@ updated: 2023-11-12 15:56:00
 
 ## 1. 生成SSH密钥
 对于每个GitHub账户，使用以下命令生成一个新的SSH密钥对：
+>如果是第一次生成，请先执行 ssh-keygen 按回车
 ```bash
 ssh-keygen -t rsa -b 4096 -C "your_email@example.com" -f ~/.ssh/id_rsa_account1
 ssh-keygen -t rsa -b 4096 -C "your_other_email@example.com" -f ~/.ssh/id_rsa_account2
