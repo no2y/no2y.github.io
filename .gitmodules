@@ -1,3 +1,4 @@
 [submodule "themes/cactus"]
 	path = themes/cactus
 	url = git@github.com:no2y/hexo-theme-cactus.git
+	branch = dev
