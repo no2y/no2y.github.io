@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "source/_posts/其他/VSCode 修改默认终端.md",
+                "file": "source/_posts/站点收藏夹/UI 站点.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "source/_posts/其他/VSCode 修改默认终端.md",
+                "file": "source/_posts/站点收藏夹/UI 站点.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "source/_posts/其他/VSCode 修改默认终端.md",
+                "file": "source/_posts/站点收藏夹/UI 站点.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "source/_posts/其他/VSCode 修改默认终端.md"
+                "file": "source/_posts/站点收藏夹/UI 站点.md"
               }
             }
           },
@@ -166,10 +166,14 @@
   },
   "active": "d6d1461d9ab3c679",
   "lastOpenFiles": [
+    "source/_posts/其他/VSCode 修改默认终端.md",
+    "source/_posts/站点收藏夹/UI 站点.md",
+    "source/_posts/站点收藏夹",
+    "themes/cactus/source/images/apple-touch-icon.png.png",
+    "themes/cactus/source/images/_favicon.ico",
+    "themes/cactus/source/images/apple-touch-icon.png",
     "themes/cactus/source/images/favicon.ico",
     "themes/cactus/source/images/logo - 副本.png",
-    "themes/cactus/source/images/_favicon.ico",
-    "source/_posts/其他/VSCode 修改默认终端.md",
     "source/_posts/git/sshkey.md",
     "source/_posts/hexo/Obsidian 食用配方.md",
     "source/_posts/备忘/Mac 下管理 Python 版本.md",
@@ -192,8 +196,6 @@
     "source/_posts/前端/@rollup",
     "source/_posts/其他",
     "其他",
-    "source/_posts/Linux",
-    "source/_posts/备忘",
     "source/about/index.md",
     "source/_posts/emby/emby.md",
     "source/_posts/hello-world.md",
