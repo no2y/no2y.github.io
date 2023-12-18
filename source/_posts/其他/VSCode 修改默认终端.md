@@ -17,8 +17,10 @@ categories:
 	  "path": "E:\\Git\\bin\\bash.exe"
 	}
 },
- "terminal.integrated.defaultProfile.windows": "Git-Bash"
+"terminal.integrated.defaultProfile.windows": "Git-Bash"
 }
 ```
 之后 (Windows) 使用 `Ctrl` + `Shift` + `P` 输入 `Reload Window` 重载 VSCode 
 再次打开终端，可以发现已经是 `git bash` 的模样了
+
+>[参考官方手册](https://code.visualstudio.com/docs/terminal/profiles#_removing-builtin-profiles)
