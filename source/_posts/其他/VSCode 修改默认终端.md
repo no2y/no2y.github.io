@@ -11,13 +11,13 @@ categories:
 添加以下内容，路径请替换为实际的
 ```json
 {
-// ... 其他设置
-"terminal.integrated.profiles.windows": {
-	"Git-Bash": {
-	  "path": "E:\\Git\\bin\\bash.exe"
-	}
-},
-"terminal.integrated.defaultProfile.windows": "Git-Bash"
+	// ... 其他设置
+	"terminal.integrated.profiles.windows": {
+		"Git-Bash": {
+		  "path": "E:\\Git\\bin\\bash.exe"
+		}
+	},
+	"terminal.integrated.defaultProfile.windows": "Git-Bash"
 }
 ```
 之后 (Windows) 使用 `Ctrl` + `Shift` + `P` 输入 `Reload Window` 重载 VSCode 
