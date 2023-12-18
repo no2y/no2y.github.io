@@ -14,7 +14,7 @@ categories:
 	// ... 其他设置
 	"terminal.integrated.profiles.windows": {
 		"Git-Bash": {
-		  "path": "E:\\Git\\bin\\bash.exe"
+			  "path": "E:\\Git\\bin\\bash.exe"
 		}
 	},
 	"terminal.integrated.defaultProfile.windows": "Git-Bash"
