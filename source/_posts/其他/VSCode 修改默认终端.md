@@ -1,7 +1,7 @@
 ---
 title: VSCode 修改默认终端
 date: 2023-12-18 11:58:53
-updated: 2023-12-18 11:58:53
+updated: 2023-12-18T12:04:53
 tags:
   - vscode
 categories:
