@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "0212276515913703",
+        "id": "8a6d125aca885020",
         "type": "tabs",
         "children": [
           {
-            "id": "d6d1461d9ab3c679",
+            "id": "00729ca134931191",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "source/_posts/站点收藏夹/UI 站点.md",
+                "file": "source/_posts/git/常用操作.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "source/_posts/站点收藏夹/UI 站点.md",
+                "file": "source/_posts/git/常用操作.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "source/_posts/站点收藏夹/UI 站点.md",
+                "file": "source/_posts/git/常用操作.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "source/_posts/站点收藏夹/UI 站点.md"
+                "file": "source/_posts/git/常用操作.md"
               }
             }
           },
@@ -151,7 +151,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 229.5
+    "width": 302.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -164,10 +164,11 @@
       "file-tree-alternative:File Tree Alternative Plugin": false
     }
   },
-  "active": "d6d1461d9ab3c679",
+  "active": "00729ca134931191",
   "lastOpenFiles": [
-    "source/_posts/其他/VSCode 修改默认终端.md",
+    "source/_posts/git/常用操作.md",
     "source/_posts/站点收藏夹/UI 站点.md",
+    "source/_posts/其他/VSCode 修改默认终端.md",
     "source/_posts/站点收藏夹",
     "themes/cactus/source/images/apple-touch-icon.png.png",
     "themes/cactus/source/images/_favicon.ico",
