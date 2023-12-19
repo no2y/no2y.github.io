@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "8a6d125aca885020",
+        "id": "ba55852b8309550c",
         "type": "tabs",
         "children": [
           {
-            "id": "00729ca134931191",
+            "id": "eb7d1582d5c5bd13",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "source/_posts/git/常用操作.md",
+                "file": "source/_posts/git/Git 常用操作.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "source/_posts/git/常用操作.md",
+                "file": "source/_posts/git/Git 常用操作.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "source/_posts/git/常用操作.md",
+                "file": "source/_posts/git/Git 常用操作.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "source/_posts/git/常用操作.md"
+                "file": "source/_posts/git/Git 常用操作.md"
               }
             }
           },
@@ -164,9 +164,9 @@
       "file-tree-alternative:File Tree Alternative Plugin": false
     }
   },
-  "active": "00729ca134931191",
+  "active": "eb7d1582d5c5bd13",
   "lastOpenFiles": [
-    "source/_posts/git/常用操作.md",
+    "source/_posts/git/Git 常用操作.md",
     "source/_posts/站点收藏夹/UI 站点.md",
     "source/_posts/其他/VSCode 修改默认终端.md",
     "source/_posts/站点收藏夹",
