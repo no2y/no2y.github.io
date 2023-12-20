@@ -4,22 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "ba55852b8309550c",
+        "id": "478185c7480bd37a",
         "type": "tabs",
         "children": [
           {
-            "id": "eb7d1582d5c5bd13",
+            "id": "c792fadeeac232da",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "source/_posts/其他/Cloudflare Workers 网站分流负载.md",
+                "file": "source/_posts/Linux/Docker 安装 Nginx.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b458cb89cc406b6b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "source/_posts/Hexo 私有部署.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -105,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "source/_posts/其他/Cloudflare Workers 网站分流负载.md",
+                "file": "source/_posts/Hexo 私有部署.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "source/_posts/其他/Cloudflare Workers 网站分流负载.md",
+                "file": "source/_posts/Hexo 私有部署.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "source/_posts/其他/Cloudflare Workers 网站分流负载.md"
+                "file": "source/_posts/Hexo 私有部署.md"
               }
             }
           },
@@ -164,10 +177,13 @@
       "file-tree-alternative:File Tree Alternative Plugin": false
     }
   },
-  "active": "eb7d1582d5c5bd13",
+  "active": "b458cb89cc406b6b",
   "lastOpenFiles": [
-    "source/_posts/其他/站点收录.md",
+    "source/_posts/Linux/Docker 安装 Nginx.md",
+    "source/_posts/Hexo 私有部署.md",
+    "source/_posts/前端/ES5优雅处理链式对象取值.md",
     "source/_posts/其他/Cloudflare Workers 网站分流负载.md",
+    "source/_posts/其他/站点收录.md",
     "node_modules/hexo-theme-landscape/source/css/_variables 1.styl",
     "source/_posts/Linux/SSH 秘钥登录.md",
     "source/_posts/emby/emby.md",
@@ -182,7 +198,6 @@
     "source/_posts/git/sshkey.md",
     "source/_posts/hexo/Obsidian 食用配方.md",
     "source/_posts/备忘/Mac 下管理 Python 版本.md",
-    "source/_posts/Linux/Docker 安装 Nginx.md",
     "source/_obsidian/PostTemplate.md",
     "source/_posts/hexo/Obsidian+Git+iPhone/Win/Mac搭配食用.md",
     "source/_posts/hexo/Obsidian+Git+iPhone/Win",
@@ -195,7 +210,6 @@
     "source/_posts/Proxy/Snell.md",
     "source/_posts/前端/Rollup插件 plugin-replace 使用记录.md",
     "source/_posts/git/pull requset.md",
-    "source/_posts/前端/ES5优雅处理链式对象取值.md",
     "source/_posts/前端/@rollup/plugin-replace.md",
     "source/_posts/Proxy",
     "source/_posts/前端/@rollup",
@@ -203,7 +217,6 @@
     "source/about/index.md",
     "source/_posts/hello-world.md",
     "source/_posts/111222.md",
-    "source/_posts/测试更新时间.md",
-    "test.md"
+    "source/_posts/测试更新时间.md"
   ]
 }
