@@ -36,7 +36,7 @@ ls /opt/docker_nginx/ssl/aaa.com/
 fullchain.pem private_key.pem
 ```
 对应的 Nginx 配置文件如下：
-``/opt/docker_nginx/conf.d/aaa.conf`
+`/opt/docker_nginx/conf.d/aaa.conf`
 ```nginx
 server {
     listen 443 ssl http2;

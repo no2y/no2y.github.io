@@ -1,0 +1,164 @@
+{
+  "main": {
+    "id": "0cc61192dbafcdc9",
+    "type": "split",
+    "children": [
+      {
+        "id": "e6296079174e4f23",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "35dfccf3fbd8afe7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "source/_posts/Linux/Docker 安装 Nginx.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "fbc36fc2a3ddc412",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "9a7768942b24f040",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "d8245161f0e44fa0",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "60d0ac665932d958",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "2d137178a04ff82c",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {}
+        }
+      },
+      {
+        "id": "abf434fa16c91a69",
+        "type": "leaf",
+        "state": {
+          "type": "file-tree-view",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 4
+  },
+  "right": {
+    "id": "fd8e480675ec0f74",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "ae51363878e7d408",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "source/_posts/Linux/Docker 安装 Nginx.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "414181bbef1105f8",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "source/_posts/Linux/Docker 安装 Nginx.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "9764103bdb89e83b",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "source/_posts/Linux/Docker 安装 Nginx.md"
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "file-tree-alternative:File Tree Alternative Plugin": false
+    }
+  },
+  "active": "35dfccf3fbd8afe7",
+  "lastOpenFiles": [
+    "source/_posts/Linux/Docker 安装 Nginx.md",
+    "source/_posts/Linux/SSH 秘钥登录.md",
+    "source/_posts/git/Git 常用操作.md",
+    "source/_posts/Hexo 私有部署.md",
+    "source/_posts/备忘/Mac 下管理 Python 版本.md",
+    "source/_posts/其他/Cloudflare Workers 网站分流负载.md",
+    "source/_posts/其他/站点收录.md",
+    "source/_posts/其他/VSCode 修改默认终端.md",
+    "test.md",
+    "docker.md",
+    "source/_posts/其他/WordPress快速安装.md",
+    "source/_posts/hexo/Obsidian 食用配方.md",
+    "source/_posts/hexo",
+    "/source/_posts/hexo/Obsidian 食用配方.md",
+    "/source/_obsidian/PostTemplate.md",
+    "/themes/cactus",
+    "/source/_posts/hexo",
+    "source/_posts/git/sshkey.md"
+  ]
+}
