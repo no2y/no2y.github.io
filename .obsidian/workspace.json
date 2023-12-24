@@ -1,52 +1,39 @@
 {
   "main": {
-    "id": "64466750fbc9528f",
+    "id": "05bc60e1fac3082f",
     "type": "split",
     "children": [
       {
-        "id": "478185c7480bd37a",
+        "id": "1d59679a5a1c8f16",
         "type": "tabs",
         "children": [
           {
-            "id": "c792fadeeac232da",
+            "id": "49abc8f0c260f17e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "source/_posts/Linux/Docker 安装 Nginx.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b458cb89cc406b6b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "source/_posts/其他/Cloudflare Workers 网站分流负载.md",
+                "file": "source/_posts/poste.io 搭建邮件服务.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "a9b3936dd05e9542",
+    "id": "16fc2531c52e1ec8",
     "type": "split",
     "children": [
       {
-        "id": "4e6510548401026c",
+        "id": "7b5e51a30e9627ba",
         "type": "tabs",
         "children": [
           {
-            "id": "faf600de3eb4809b",
+            "id": "5a46381e3c73a175",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -56,7 +43,7 @@
             }
           },
           {
-            "id": "51f786e6c816f99f",
+            "id": "135066e3bf5d62a8",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -71,7 +58,7 @@
             }
           },
           {
-            "id": "2403151025e0d372",
+            "id": "57dad5b6f25084af",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -79,7 +66,7 @@
             }
           },
           {
-            "id": "461abc891d841109",
+            "id": "347160a8d49b754b",
             "type": "leaf",
             "state": {
               "type": "file-tree-view",
@@ -91,34 +78,56 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 276.5
   },
   "right": {
-    "id": "9316d1e8f9b9da3f",
+    "id": "02b9eba5c2d8e593",
     "type": "split",
     "children": [
       {
-        "id": "fc943a991a764990",
+        "id": "74fd965e3e7d7b26",
         "type": "tabs",
         "children": [
           {
-            "id": "b9e0066dc6207161",
+            "id": "beed611b0630a96b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "source/_posts/poste.io 搭建邮件服务.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "81b44021414a6933",
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": false
+                "useHierarchy": true
               }
             }
           },
           {
-            "id": "a8c725b4065006e4",
+            "id": "7f175e60d9172934",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "source/_posts/poste.io 搭建邮件服务.md"
+              }
+            }
+          },
+          {
+            "id": "facb951863be2fa2",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "source/_posts/其他/Cloudflare Workers 网站分流负载.md",
+                "file": "source/_posts/poste.io 搭建邮件服务.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,43 +137,14 @@
                 "unlinkedCollapsed": true
               }
             }
-          },
-          {
-            "id": "7bf32eb3274aaa34",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "source/_posts/其他/Cloudflare Workers 网站分流负载.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "e08d28ad9139869e",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "source/_posts/其他/Cloudflare Workers 网站分流负载.md"
-              }
-            }
-          },
-          {
-            "id": "2c31e3a3753f42e6",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 302.5
+    "width": 233.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -177,46 +157,15 @@
       "file-tree-alternative:File Tree Alternative Plugin": false
     }
   },
-  "active": "b458cb89cc406b6b",
+  "active": "49abc8f0c260f17e",
   "lastOpenFiles": [
-    "source/_posts/Hexo 私有部署.md",
-    "source/_posts/Linux/Docker 安装 Nginx.md",
-    "source/_posts/前端/ES5优雅处理链式对象取值.md",
-    "source/_posts/其他/Cloudflare Workers 网站分流负载.md",
+    "source/_posts/poste.io 搭建邮件服务.md",
     "source/_posts/其他/站点收录.md",
-    "node_modules/hexo-theme-landscape/source/css/_variables 1.styl",
-    "source/_posts/Linux/SSH 秘钥登录.md",
-    "source/_posts/emby/emby.md",
-    "source/_posts/git/Git 常用操作.md",
     "source/_posts/其他/VSCode 修改默认终端.md",
-    "source/_posts/站点收藏夹",
-    "themes/cactus/source/images/apple-touch-icon.png.png",
-    "themes/cactus/source/images/_favicon.ico",
-    "themes/cactus/source/images/apple-touch-icon.png",
-    "themes/cactus/source/images/favicon.ico",
-    "themes/cactus/source/images/logo - 副本.png",
-    "source/_posts/git/sshkey.md",
-    "source/_posts/hexo/Obsidian 食用配方.md",
-    "source/_posts/备忘/Mac 下管理 Python 版本.md",
-    "source/_obsidian/PostTemplate.md",
-    "source/_posts/hexo/Obsidian+Git+iPhone/Win/Mac搭配食用.md",
-    "source/_posts/hexo/Obsidian+Git+iPhone/Win",
-    "source/_posts/hexo/Obsidian+Git+iPhone",
-    "source/_posts/hexo",
-    "source/_posts/备忘/常用命令行.md",
-    "source/_posts/Linux/定时备份MySQL并发送到邮箱.md",
-    "source/_posts/其他/个人常用Chrome插件.md",
-    "source/_posts/其他/WordPress快速安装.md",
-    "source/_posts/Proxy/Snell.md",
-    "source/_posts/前端/Rollup插件 plugin-replace 使用记录.md",
-    "source/_posts/git/pull requset.md",
-    "source/_posts/前端/@rollup/plugin-replace.md",
-    "source/_posts/Proxy",
-    "source/_posts/前端/@rollup",
-    "source/_posts/其他",
-    "source/about/index.md",
-    "source/_posts/hello-world.md",
-    "source/_posts/111222.md",
-    "source/_posts/测试更新时间.md"
+    "source/_posts/其他/Cloudflare Workers 网站分流负载.md",
+    "source/_posts/git/Git 常用操作.md",
+    "source/_posts/Linux/SSH 秘钥登录.md",
+    "source/_posts/Hexo 私有部署.md",
+    "source/_posts/备忘/Mac 下管理 Python 版本.md"
   ]
 }
