@@ -29,3 +29,13 @@ aabbcc4 HEAD@{3}: commit: xxx
 ```bash
 git reset --hard aabbcc2
 ```
+## .gitignore 修复
+1. 文件 aaa 已经推送到远端
+2. .gitignore 添加 aaa/** 不生效
+按以下步骤：
+1. .gitignore 添加 aaa/**
+2. git add .gitignore
+3. git commit -m "update .gitignore"
+4. git rm -r --cached aaa
+5. git add .
+6. git commit -m "fix .gitignore"
