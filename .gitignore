@@ -6,5 +6,5 @@ node_modules/
 public/
 .deploy*/
 _multiconfig.yml
-
-# .obsidian/**/*
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
