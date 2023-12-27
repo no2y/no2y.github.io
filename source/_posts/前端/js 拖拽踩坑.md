@@ -57,7 +57,7 @@ btn.style.top = 'auto';
 ```
 完美~ CTRL + C 复制到上下文代码中，并给按钮绑定上这些事件，打开 Chrome 看看效果
 
-[![20231227170807_rec_.md.gif](https://npy.icu/images/2023/12/27/20231227170807_rec_.md.gif)](https://npy.icu/image/NqN)
+![20231227170807_rec_.gif](https://npy.icu/images/2023/12/27/20231227170807_rec_.gif)
 
 拖动效果是没有问题，但是鼠标在按钮上松开，就触发原有按钮的点击事件了，这不是想要的效果，还要做一下兼容：
 ```javascript
@@ -86,7 +86,7 @@ btn.onmouseup = function (e) {
 部署到生产环境之后，在某个平台下发现了 Bug：
 拖动过程中鼠标移入 iframe 之后松开，再回到父级 Document，在松开状态下按钮随鼠标移动（文档的鼠标松开事件没有触发）
 
-[![20231227173112_rec_.md.gif](https://npy.icu/images/2023/12/27/20231227173112_rec_.md.gif)](https://npy.icu/image/PTl)
+![20231227173112_rec_.gif](https://npy.icu/images/2023/12/27/20231227173112_rec_.gif)
 
 这个问题其实也好解决：
 1. 将 mouse 事件全部绑定在按钮上，鼠标移除按钮时将 move 事件移除
@@ -95,7 +95,7 @@ btn.onmouseup = function (e) {
 
 使用 `1` 的话会有一个体验问题，因为这次功能是在竖直方向上移动，如果用户鼠标脱离了垂直方向的惯性，用会导致按钮脱离鼠标箭头骤停。说人话就是 `不跟手`。
 
-[![20231227175133_rec_.md.gif](https://npy.icu/images/2023/12/27/20231227175133_rec_.md.gif)](https://npy.icu/image/D0V)
+![20231227175133_rec_.gif](https://npy.icu/images/2023/12/27/20231227175133_rec_.gif)
 
 经过深思熟虑之后打算使用 `方案3`，最终实现的代码：
 ```typescript
