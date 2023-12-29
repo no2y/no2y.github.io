@@ -4,8 +4,6 @@ date: 2023-06-23 18:24:22
 updated: 2023-09-13T21:26:24
 tags:
   - Linux
-categories:
-  - 随记
 ---
 ## 生成密钥对
 ```bash

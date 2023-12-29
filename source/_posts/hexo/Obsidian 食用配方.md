@@ -6,8 +6,6 @@ tags:
   - 博客
   - Hexo
   - Obsidian
-categories:
-  - 随记
 ---
 ## 前言
 1. 不知道什么是 [Obsidian](https://obsidian.md/) 

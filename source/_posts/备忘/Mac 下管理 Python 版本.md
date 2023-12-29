@@ -5,8 +5,6 @@ updated: 2023-12-17
 tags:
   - Mac
   - Python
-categories:
-  - 随记
 ---
 ## 安装 Homebrew
 [安装地址](https://docs.brew.sh/Installation)
