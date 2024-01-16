@@ -37,3 +37,12 @@ git reset --hard aabbcc2
 4. git rm -r --cached aaa
 5. git add .
 6. git commit -m "fix .gitignore"
+## 修改文件夹名称大小写
+```bash
+# oldFolderName 旧名称
+# newFolderName 新名称
+git mv oldFolderName tempname && git mv tempname newFolderName
+
+# 文件系统强制区分文件名大小写
+git config core.ignorecase false
+```
