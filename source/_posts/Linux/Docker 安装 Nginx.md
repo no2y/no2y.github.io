@@ -7,6 +7,57 @@ tags:
   - Docker
   - Nginx
 ---
+## 脚本安装
+1. 需要安装docker 和 docker compose 最新版
+2. 空闲的 80 端口
+3.  新建 nginx_docker_install.sh 写入以下内容执行
+```bash
+#!/bin/bash
+
+# 定义目标目录变量
+target_dir="/opt/nginx_docker"
+
+# 第一阶段：提取默认配置和HTML文件
+echo "启动临时Nginx容器来提取默认配置和HTML文件..."
+docker run --name tmp-nginx -d nginx:latest
+
+# 等待几秒以确保Nginx容器已经完全启动
+sleep 5
+
+echo "从临时容器复制默认配置和HTML文件..."
+mkdir -p ${target_dir}
+docker cp tmp-nginx:/etc/nginx/ ${target_dir}/
+docker cp tmp-nginx:/usr/share/nginx/html ${target_dir}/
+
+echo "停止并移除临时Nginx容器..."
+docker stop tmp-nginx && docker rm tmp-nginx
+
+# 检查docker-compose.yml文件是否存在
+compose_file="$(pwd)/docker-compose.yml"
+if [ ! -f "$compose_file" ]; then
+    echo "docker-compose.yml文件不存在，正在创建..."
+    cat << EOF > docker-compose.yml
+version: '3.7'
+
+services:
+  nginx:
+    image: nginx:latest
+    container_name: nginx_docker
+    network_mode: host
+    volumes:
+      - ${target_dir}/nginx/:/etc/nginx/
+      - ${target_dir}/html/:/usr/share/nginx/html
+    restart: always
+EOF
+fi
+
+# 第二阶段：使用docker-compose启动定制的Nginx容器
+echo "使用docker-compose启动定制的Nginx容器..."
+docker-compose up -d
+mv docker-compose.yml ${target_dir}/
+echo "完成。"
+
+```
 ## 安装
 ```bash
 docker pull nginx:latest && \
