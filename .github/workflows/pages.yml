@@ -1,4 +1,4 @@
-name: Pages
+name: GitHub Pages
 
 on:
   push:
@@ -35,36 +35,21 @@ jobs:
         with:
           path: ./public
       # - name: Upload to Personal Server
-      #   if: env.SSH_PRIVATE_KEY != ''
-      #   run: |
-      #     if [ -z "${{ vars.SERVER_PORT }}" ] || \
-      #       [ -z "${{ vars.SERVER_USER }}" ] || \
-      #       [ -z "${{ vars.SERVER_ADDRESS }}" ] || \
-      #       [ -z "${{ vars.SERVER_PAGE_PATH }}" ]; then
-      #       echo "One or more required variables are empty"
-      #       exit 1
-      #     fi
-      #     ssh -p ${{ vars.SERVER_PORT }} ${{ vars.SERVER_USER }}@${{ vars.SERVER_ADDRESS }} mkdir -p ${{ vars.SERVER_PAGE_PATH }}
-      #     exit
-      #     scp -P ${{ vars.SERVER_PORT }} -r ./public/* ${{ vars.SERVER_USER }}@${{ vars.SERVER_ADDRESS }}:${{ vars.SERVER_PAGE_PATH }}
+      #   if: env.SSH_PRIVATE_KEY && env.SERVER_USER && env.SERVER_ADDRESS && env.SERVER_PORT && env.SERVER_PAGE_PATH
+      #   uses: appleboy/scp-action@v0.1.4
+      #   with:
+      #     host: ${{ vars.SERVER_ADDRESS }}
+      #     username: ${{ vars.SERVER_USER }}
+      #     port: ${{ vars.SERVER_PORT }}
+      #     key: ${{ secrets.SSH_PRIVATE_KEY }}
+      #     source: "./public/*"
+      #     target: ${{ vars.SERVER_PAGE_PATH }}
       #   env:
       #     SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
-      - name: Upload to Personal Server
-        if: env.SSH_PRIVATE_KEY && env.SERVER_USER && env.SERVER_ADDRESS && env.SERVER_PORT && env.SERVER_PAGE_PATH
-        uses: appleboy/scp-action@v0.1.4
-        with:
-          host: ${{ vars.SERVER_ADDRESS }}
-          username: ${{ vars.SERVER_USER }}
-          port: ${{ vars.SERVER_PORT }}
-          key: ${{ secrets.SSH_PRIVATE_KEY }}
-          source: "./public/*"
-          target: ${{ vars.SERVER_PAGE_PATH }}
-        env:
-          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
-          SERVER_USER: ${{ vars.SERVER_USER }}
-          SERVER_ADDRESS: ${{ vars.SERVER_ADDRESS }}
-          SERVER_PORT: ${{ vars.SERVER_PORT }}
-          SERVER_PAGE_PATH: ${{ vars.SERVER_PAGE_PATH }}
+      #     SERVER_USER: ${{ vars.SERVER_USER }}
+      #     SERVER_ADDRESS: ${{ vars.SERVER_ADDRESS }}
+      #     SERVER_PORT: ${{ vars.SERVER_PORT }}
+      #     SERVER_PAGE_PATH: ${{ vars.SERVER_PAGE_PATH }}
   deploy:
     needs: build
     permissions:
