@@ -62,32 +62,32 @@ echo "完成。"
 ```bash
 docker pull nginx:latest && \
 docker run --name nginx -p 80:80 -d nginx && \
-docker cp nginx:/etc/nginx/ /opt/docker_nginx/ && \
-docker cp nginx:/usr/share/nginx/html /opt/docker_nginx/ && \
+docker cp nginx:/etc/nginx/ /opt/nginx_docker/ && \
+docker cp nginx:/usr/share/nginx/html /opt/nginx_docker/ && \
 docker stop nginx && docker rm nginx && \
 docker run -p 80:80 --name nginx --net=host --restart=always \
--v /opt/docker_nginx/:/etc/nginx/ \
--v /opt/docker_nginx/html:/usr/share/nginx/html \
+-v /opt/nginx_docker/:/etc/nginx/ \
+-v /opt/nginx_docker/html:/usr/share/nginx/html \
 -d nginx
 ```
 ## 说明
-1. 主配置文件 `/opt/docker_nginx/nginx.conf*`
-2. 子配置文件 `/opt/docker_nginx/conf.d/*`
-3. 静态资源路径 `/opt/docker_nginx/html/*`
+1. 主配置文件 `/opt/nginx_docker/nginx.conf*`
+2. 子配置文件 `/opt/nginx_docker/conf.d/*`
+3. 静态资源路径 `/opt/nginx_docker/html/*`
 **注意配置文件中路径写法**
 例：
-站点文件存放于 `/opt/docker_nginx/html/blog/`
+站点文件存放于 `/opt/nginx_docker/html/blog/`
 ```bash
-ls /opt/docker_nginx/html/blog/
+ls /opt/nginx_docker/html/blog/
 index.html style.css ...
 ```
-SSL证书存放于 `/opt/docker_nginx/ssl/aaa.com/`
+SSL证书存放于 `/opt/nginx_docker/ssl/aaa.com/`
 ```bash
-ls /opt/docker_nginx/ssl/aaa.com/
+ls /opt/nginx_docker/ssl/aaa.com/
 fullchain.pem private_key.pem
 ```
 对应的 Nginx 配置文件如下：
-`/opt/docker_nginx/conf.d/aaa.conf`
+`/opt/nginx_docker/conf.d/aaa.conf`
 ```nginx
 server {
     listen 443 ssl http2;
