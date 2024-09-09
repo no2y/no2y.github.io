@@ -44,7 +44,7 @@ fi
 FILE_GZ=${BACKUP_PATH}/${TAR_FILE_NAME}
 
 # 压缩
-zip -q -r $FILE_GZ $TARGET_PATH
+zip -q -r $TAR_FILE_NAME $TARGET_PATH
 
 EMAIL_TITLE="Bitwarden_备份_$CURRENT_TIME"
 # 发送邮件
