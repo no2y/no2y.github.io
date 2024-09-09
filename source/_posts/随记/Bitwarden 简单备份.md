@@ -25,12 +25,12 @@ TARGET_PATH=/path/to/bitwarden-data
 BACKUP_PATH=/path/to/backup
 # 收件人邮箱
 RECV_EMAIL=123456@gmail.com
-# 备份文件后缀
-BACKUP_FILE_SUFFIX=_bitwarden_data.zip
 ##### 配置End #####
 
 # 当前时间
 CURRENT_TIME=$(date +%Y%m%d_%H%M%S)
+# 备份文件后缀
+BACKUP_FILE_SUFFIX=_bitwarden_data.zip
 # 备份后的文件名称
 TAR_FILE_NAME=${CURRENT_TIME}${BACKUP_FILE_SUFFIX}
 
