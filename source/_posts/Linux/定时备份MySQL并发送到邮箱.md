@@ -76,7 +76,6 @@ FILE_GZ=${BACKUP_PATH}/$CURRENT_TIME.$DATABASE.sql.gz
 echo "数据库备份--$FILE_GZ" | mutt -s "$DATABASE备份" $RECV_EMAIL -a $FILE_GZ
 
 # 删除 7 天以前的备份 「注意写法」
-cd $BACKUP_PATH
 find $BACKUP_PATH -mtime +7 -name "*sql.gz"  -exec rm -f {} \;
 ```
 
