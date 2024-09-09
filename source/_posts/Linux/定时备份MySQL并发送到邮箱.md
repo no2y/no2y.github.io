@@ -89,6 +89,14 @@ crontab -e
 0 0 * * 1 bash /xxx/xxx/backup.sh
 ```
 
+### QA
+在 Ubuntu 下如遇一下错误提示
+```bash
+Error sending message, child exited 127 (Exec error.).
+Could not send the message.
+```
+请尝试运行 `apt install sendmail` 后再次尝试发送
+
 ### 参考
 
 [MySQL 自动备份并发送到邮箱](https://learnku.com/articles/13342/mysql-auto-backup-and-send-to-mailbox)
