@@ -254,4 +254,3 @@ class Draggable {
 5. 增加了一个边缘值 `criticalValue` 以降低误触概率
 6. `handleCallback` 方法代替了原有元素的点击事件
 	1. 不需要 `btn.onclick` 了，（也很难兼容
-7. 下班
