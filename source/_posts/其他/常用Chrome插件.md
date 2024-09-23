@@ -34,4 +34,4 @@ tags:
 随时随地Translate~
 
 #### 🐒 [篡改猴](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
-不多说 -。-
+yyds
