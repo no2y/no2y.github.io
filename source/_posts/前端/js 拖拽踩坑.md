@@ -246,11 +246,6 @@ class Draggable {
 ## 总结一下
 1. 注意按钮 `z-index` 要大于遮罩的 `z-index` 
 2. 拓展了一个 `dragMode` 以设置横向、纵向、360° 方向的移动
-3. 为什么不使用拖拽的轮子（？
-	1. 起初以为是简单的功能，还是有坑踩
-	2. 考虑到 JSSDK 体积，本身也不是特别复杂的功能
-4. 还可以继续优化，譬如 `setPos()` 可以使用 `transform: translate3d(x, x, 0)` 来调动 `GPU` 处理可能会更加高效
-	1. 需要重新考虑边界计算问题
-5. 增加了一个边缘值 `criticalValue` 以降低误触概率
-6. `handleCallback` 方法代替了原有元素的点击事件
-	1. 不需要 `btn.onclick` 了，（也很难兼容
+3. 还可以继续优化，譬如 `setPos()` 可以使用 `transform: translate3d(x, x, 0)` 来调动 `GPU` 处理可能会更加高效
+4. 增加了一个边缘值 `criticalValue` 以降低误触概率
+5. `handleCallback` 方法代替了原有元素的点击事件
