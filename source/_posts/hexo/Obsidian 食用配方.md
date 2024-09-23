@@ -49,8 +49,11 @@ source/_obsidian
 #### File Tree Alternative Plugin
 这个插件可以让左侧目录结构更加专注，安装启用即可。其他配置见 [file-tree-alternative](https://github.com/ozntel/file-tree-alternative)
 ## 在 iPhone 上使用
-使用方式和 PC 并无大差异
-#### 使用 ISH 克隆仓库到 iOS 本地存储中
-略
-#### 直接将代码压缩包解压在 Obsidian 库文件中
-使用 https 克隆仓库并发送到移动设备上，具体可参考 [Sync on your iOS](https://forum.obsidian.md/t/obsidian-git-sync-on-your-ios-without-any-extra-app/60639) 
+#### 1 使用 ISH 克隆仓库到 iOS 本地存储中
+具体可参考 [Sync on your iOS](https://forum.obsidian.md/t/obsidian-git-sync-on-your-ios-without-any-extra-app/60639) 
+1. 先使用mount挂载目录
+2. 克隆之后，在Obsidian新建和仓库名同名文件夹，不要打开iCloud
+3. 安装Obsidian-git插件，配置github用户名和经典令牌 Access Token 
+4. 尝试 git pull 等操作
+#### 2 直接将代码压缩包解压在 Obsidian 库文件中
+使用 https 克隆仓库并发送到移动设备上
