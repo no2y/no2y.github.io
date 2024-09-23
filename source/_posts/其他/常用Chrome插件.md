@@ -1,5 +1,5 @@
 ---
-title: 个人常用Chrome插件
+title: 常用Chrome插件
 date: 2022-11-22 19:23:16
 updated: 2023-12-13 19:23:16
 tags:
